@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".activity.dashboardActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="16dp"
+        android:background="@drawable/card_background_rounded"
+        android:clipToPadding="false"
+        android:elevation="8dp"
+        android:orientation="vertical"
+        android:padding="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="196dp"
+            app:srcCompat="@drawable/medicar" />
+
+        <Button
+            android:id="@+id/btnBuscarMedicamento"
+            style="?attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:drawableStart="@drawable/baseline_medication_24"
+            android:drawablePadding="8dp"
+            android:text="Buscar Medicamento" />
+
+        <Button
+            android:id="@+id/btnCentrosMedicos"
+            style="?attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_medical_services_24"
+            android:drawablePadding="8dp"
+            android:text="Centros Medicos Cercanos" />
+
+        <Button
+            android:id="@+id/btnFarmaciasCercanas"
+            style="?attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_local_pharmacy_24"
+            android:drawablePadding="8dp"
+            android:text="Farmacias Cercanas" />
+
+        <Button
+            android:id="@+id/btnHistorialBusqueda"
+            style="?attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_manage_history_24"
+            android:drawablePadding="8dp"
+            android:text="Historial de Busqueda" />
+
+        <Button
+            android:id="@+id/btnPerfilUsuario"
+            style="?attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_person_24"
+            android:drawablePadding="8dp"
+            android:text="Perfil del Usuario" />
+
+        <Button
+            android:id="@+id/btnCerrarSesion"
+            style="?attr/buttonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/baseline_exit_to_app_24"
+            android:drawablePadding="8dp"
+            android:text="Cerrar Sesion" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

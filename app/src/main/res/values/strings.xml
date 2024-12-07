@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Medicar</string>
+    <string name="btnCancelar">Cancelar</string>
+    <string name="btnGuardarCambios">Guardar Cambios</string>
+    <string name="layoutAdress">Direccion</string>
+    <string name="layoutPhone">Telefono</string>
+    <string name="layoutBirthdate">Fecha de Nacimiento</string>
+    <string name="layoutDNI">DNI</string>
+    <string name="layoutLastName">Apellido</string>
+    <string name="layoutName">Nombre</string>
+    <string name="tvTitle">Edicion de Usuario</string>
+    <string name="btnConfirmar">Confirmar</string>
+    <string name="etPasswordComfirmar">Confirmar nueva contraseña</string>
+    <string name="etPasswoerdNueva">Nueva contraseña</string>
+    <string name="etPasswordActual">Contraseña actual</string>
+    <string name="btnCambiarPassword">Cambiar mi contraseña</string>
+    <string name="btnVolver">Volver</string>
+    <string name="btnEditarPerfil">Editar Perfil</string>
+    <string name="btnLimpiar">Limpiar</string>
+
+    <string-array name="gender_options">
+        <item>Seleccione sexo...</item>
+        <item>Masculino</item>
+        <item>Femenino</item>
+        <item>Otro</item>
+    </string-array>
+
+    <string-array name="user_type_options">
+        <item>Seleccione tipo de afiliado...</item>
+        <item>Afiliado/a</item>
+        <item>No Afiliado/a</item>
+    </string-array>
+</resources>
